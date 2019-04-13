@@ -1,0 +1,7 @@
+FlyDbg.sln
+FlyDbg.vcxproj
+FlyDbg.vcxproj.user
+.vs
+.vscode
+bin
+obj

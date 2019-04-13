@@ -14,8 +14,8 @@ project "FlyDbg"
   targetdir "bin/%{cfg.buildcfg}-%{cfg.architecture}"
   targetname "%{prj.name}_%{cfg.architecture}"
 
-	pchheader "pch.h"
-	pchsource "src/pch.cpp"
+  pchheader "pch.h"
+  pchsource "src/pch.cpp"
 
   defines {
     "ZYDIS_EXPORT="
@@ -36,7 +36,7 @@ project "FlyDbg"
 
   includedirs {
     "src",
-		"%{IncludeDir.Zydis}",
+    "%{IncludeDir.Zydis}",
     "%{IncludeDir.Zycore}"
   }
 
